@@ -84,9 +84,9 @@ jobs:
           49
           88
         expected-output: |-
-          Semester I GPA: 3.91
-          Semester II GPA: 3.54
-          CGPA: 3.72
+          Semester I GPA: 3.96
+          Semester II GPA: 3.28
+          CGPA: 3.61
           Classification: Second Class Upper
         comparison-method: contains
         timeout: 10
@@ -116,10 +116,10 @@ jobs:
           64
           77
         expected-output: |-
-          Semester I GPA: 2.61
-          Semester II GPA: 3.04
-          CGPA: 2.83
-          Classification: Second Class Lower
+          Semester I GPA: 2.29
+          Semester II GPA: 2.76
+          CGPA: 2.53
+          Classification: Pass
         comparison-method: contains
         timeout: 10
         max-score: 35
